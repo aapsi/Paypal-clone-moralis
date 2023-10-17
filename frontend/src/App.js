@@ -61,7 +61,19 @@ function App() {
       <Layout>
         <Header className="header">
           <div className="headerLeft">
-            <img src={logo} alt="logo" className="logo" />
+            {/* <img src={logo} alt="logo" className="logo" /> */}
+            <p style={{
+              fontFamily: 'Helvetica, Arial, sans-serif',
+              color: '#003087',
+              fontWeight: '900', // Set font weight to make it thicker
+              fontSize: '24px',
+              textTransform: 'uppercase',
+              letterSpacing: '2px',
+              textAlign: 'center',
+              textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' // Add a text shadow
+            }}>
+              Paypal 3.0
+            </p>
             {isConnected && (
               <>
                 <div
